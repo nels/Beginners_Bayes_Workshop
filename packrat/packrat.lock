@@ -150,6 +150,11 @@ Source: CRAN
 Version: 4.0
 Hash: 43ba5c33f68914a98361fb056d32872d
 
+Package: data.table
+Source: CRAN
+Version: 1.12.2
+Hash: b1642cf2ee0ab1d1b152ffacdb4401f7
+
 Package: desc
 Source: CRAN
 Version: 1.2.0
@@ -247,6 +252,13 @@ Package: gtools
 Source: CRAN
 Version: 3.8.1
 Hash: 6cb09dd6faf3aeac5c5acae55bfa6495
+
+Package: hBayesDM
+Source: CRAN
+Version: 1.0.0
+Hash: 490982df438615b12e3472ffd285f4c5
+Requires: BH, Rcpp, RcppEigen, StanHeaders, data.table, ggplot2, loo,
+    rstan
 
 Package: highr
 Source: CRAN
